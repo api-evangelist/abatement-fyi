@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Abatement is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://abatement.fyi
+Abatement operates a marketplace connecting homeowners and businesses with certified asbestos and lead abatement contractors across the United States and Canada. The platform allows users to submit project details, receive matched contractor offers, and access resources such as guides, tools, and educational content to ensure safe and compliant removal of hazardous materials. By aggregating listings and providing verification of contractor credentials, Abatement aims to streamline the abatement process and promote public health and safety.
+
+**Areas:** Company · Marketplace · Asbestos · Lead · Contractor
+
+## Abatement on APIs.io
+
+Everything profiled for Abatement is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/abatement-fyi/](https://apis.io/providers/abatement-fyi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Abatement Academy API](https://apis.io/apis/abatement-fyi/abatement-fyi-academy-api/) — The Academy API from Abatement — 2 operation(s) for academy.
+- [Abatement Admin API](https://apis.io/apis/abatement-fyi/abatement-fyi-admin-api/) — The Admin API from Abatement — 160 operation(s) for admin.
+- [Abatement Categories API](https://apis.io/apis/abatement-fyi/abatement-fyi-categories-api/) — The Categories API from Abatement — 1 operation(s) for categories.
+- [Abatement Certificates API](https://apis.io/apis/abatement-fyi/abatement-fyi-certificates-api/) — The Certificates API from Abatement — 1 operation(s) for certificates.
+- [Abatement Listings API](https://apis.io/apis/abatement-fyi/abatement-fyi-listings-api/) — The Listings API from Abatement — 2 operation(s) for listings.
+- [Abatement Places API](https://apis.io/apis/abatement-fyi/abatement-fyi-places-api/) — The Places API from Abatement — 1 operation(s) for places.
+- [Abatement Product Categories API](https://apis.io/apis/abatement-fyi/abatement-fyi-product-categories-api/) — The Product Categories API from Abatement — 1 operation(s) for product categories.
+- [Abatement Products API](https://apis.io/apis/abatement-fyi/abatement-fyi-products-api/) — The Products API from Abatement — 2 operation(s) for products.
+- [Abatement Sources API](https://apis.io/apis/abatement-fyi/abatement-fyi-sources-api/) — The Sources API from Abatement — 1 operation(s) for sources.
+- [Abatement Sponsor API](https://apis.io/apis/abatement-fyi/abatement-fyi-sponsor-api/) — The Sponsor API from Abatement — 2 operation(s) for sponsor.
+- [Abatement Stats API](https://apis.io/apis/abatement-fyi/abatement-fyi-stats-api/) — The Stats API from Abatement — 1 operation(s) for stats.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Abatement Agentic Access](https://apis.io/agentic-access/abatement-fyi/abatement-fyi-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Certificate](https://apis.io/schemas/abatement-fyi/abatement-fyi-certificate/)
+- [Course](https://apis.io/schemas/abatement-fyi/abatement-fyi-course/)
+- [CourseDetail](https://apis.io/schemas/abatement-fyi/abatement-fyi-course-detail/)
+- [Listing](https://apis.io/schemas/abatement-fyi/abatement-fyi-listing/)
+- [ListingItem](https://apis.io/schemas/abatement-fyi/abatement-fyi-listing-item/)
+- [Product](https://apis.io/schemas/abatement-fyi/abatement-fyi-product/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Abatement Fyi Context](https://apis.io/jsonld/abatement-fyi/abatement-fyi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Abatement API Rules](https://apis.io/rules/abatement-fyi/abatement-fyi-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Abatement Domain Security](https://apis.io/security/abatement-fyi/abatement-fyi-domain-security/)
+- [Abatement Vulnerability Disclosure](https://apis.io/security/abatement-fyi/abatement-fyi-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://abatement.fyi)
+- [Documentation](https://abatement.fyi/developers)
+- [API reference](https://abatement.fyi/developers)
+- [Pricing](https://abatement.fyi/sponsor)
+- [Support](https://abatement.fyi/contact)
+- [Terms of service](https://abatement.fyi/terms)
+- [Privacy policy](https://abatement.fyi/privacy)
+
+## API Evangelist rating
+
+**Kin Score 43.7** — developing · rubric 0.28.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 51.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 25.5 |
+
+**Agent readiness 44.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/abatement-fyi/](https://apis.io/providers/abatement-fyi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Abatement: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/abatement-fyi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
